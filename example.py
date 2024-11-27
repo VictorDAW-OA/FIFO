@@ -1,6 +1,6 @@
 OK_RESULT = 'yes'
 FATAL_RESULT = 'no'
-
+PEPE = 9
 
 def check_if_aprove_or_not() -> str:
 
