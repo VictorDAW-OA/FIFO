@@ -1,7 +1,7 @@
 OK_RESULT = 'yes'
 FATAL_RESULT = 'no'
 PEPE = 9
-
+PLAYERS = []
 def check_if_aprove_or_not() -> str:
 
     result = input('¿Eres del Madrid? ')
@@ -16,5 +16,12 @@ def check_if_aprove_or_not() -> str:
                 return 'SUSPENDIDO'
         return 'SUSPENDIDO'    
     
+def add_players_to_list():
+    while len(PLAYERS) < 11:
 
+        r = input('Dime un jugador del madrid')
+        if isinstance(r, str):
+            PLAYERS.append(r)
 check_if_aprove_or_not()
+add_players_to_list()
+
