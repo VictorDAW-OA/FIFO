@@ -30,9 +30,6 @@ def add_players_to_list():
         r = input('Dime un jugador del madrid')
         if isinstance(r, str):
             PLAYERS.append(r)
-
-def foo():
-    pass
 check_if_aprove_or_not()
 pay_referee_taxes()
 add_players_to_list()
