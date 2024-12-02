@@ -37,6 +37,7 @@ def foo():
 
 def bar():
     pass
+
 check_if_aprove_or_not()
 pay_referee_taxes()
 add_players_to_list()
